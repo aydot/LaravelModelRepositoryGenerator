@@ -14,6 +14,7 @@ artisan make:repo User
 
 Will create a UserRepository class with the User model as a dependency.
 
+```
 <?php
 
 namespace App\Repositories\User;
@@ -35,4 +36,5 @@ class UserRepository
         parent::__construct($model);
     }
 }
+```
 
