@@ -3,10 +3,13 @@ This will make an empty repository class for your laravel model.
 
 In your Console/Kernel.php file,
 add this to your $commands property like so
+
+```
 protected $commands = [
     \App\Console\Commands\Inspire::class,
     \App\Console\Commands\RepositoryMakeCommand::class,
 ];
+```
 
 To generate a UserRepository class, run the artisan command:
 
