@@ -7,7 +7,7 @@ use App\Models\DummyClass;
 class DummyClassRepository
 {
     /**
-     * @var Model
+     * @var DummyClass $model
      */
     protected $model;
     
